@@ -1,11 +1,24 @@
-import './App.css'
+// import './App.css'
+import React, { useState, useEffect } from 'react';
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider} from 'react-router-dom';
 import { HomePage } from './pages/HomePage'
+import { ComingPage } from './pages/ComingPage'
 
 function App() {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/coming-soon" element={<ComingPage />} />
+      <Route path="*" element={<ComingPage />} /> 
+
+      </>
+    )
+  );
   return (
-    <div className="w-full relative min-h-screen overflow-hidden">
-      <HomePage />
-    </div>
+    <RouterProvider
+      router={router}
+    />
   );
 }
 
