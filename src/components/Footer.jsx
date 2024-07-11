@@ -1,6 +1,7 @@
 import React from "react";
 import Yomo from "../assets/images/yomoWhite 2.png"
 import { NavLink } from 'react-router-dom';
+import EmailLink from "../components/EmailLink";
 export const Footer = () => {
   return (
     <div className="w-full min-h-12 bg-black text-white">
@@ -34,7 +35,9 @@ export const Footer = () => {
             <div>
               <h2 className="mb-4 font-bold text-lg">Support Email</h2>
               <div className="flex flex-col gap-3">
-                <p>YomoSupport@gmail.com</p>
+                {/* <p><NavLink to="hello@yo-mo.net" className="text-blue-600 hover:underline">hello@yo-mo.net</NavLink></p> */}
+                <EmailLink to="hello@yo-mo.net" />
+
               </div>
             </div>
           </div>
