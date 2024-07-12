@@ -11,10 +11,10 @@ const Pricing = () => {
             <h2 className="font-bold text-[1.7rem] mb-7 text-center">
               YOMO WITHDRAWAL
             </h2>
-            <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">At yomo, we believe in making our financial services accessible to all. That's why we charge a mere 1% fee per transaction </p>
+            <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">At yomo, we believe in making our financial services accessible to all. That's why we charge a mere 0% fee per transaction </p>
             <div className="flex justify-center items-baseline my-8">
               <h3 className="text-center mt-3 font-bold lg:text-start text-[2rem] ">
-              Yomo Provides 1% charges for all transactions
+              Yomo Provides 0% charges for all transactions
               </h3>
             </div>
             <div className="w-full flex justify-center ">
@@ -29,13 +29,13 @@ const Pricing = () => {
               YOMO TRANSFER
             </h2>
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Affordability is a key priority for us at Yomo. That's why we charge a
-            nominal 1% fee per transaction for our services. This means that individuals with-lower incomes can still benefit from the advantages of our financial solutions</p>
+            nominal 0% fee per transaction for our services. This means that individuals with-lower incomes can still benefit from the advantages of our financial solutions</p>
             <div className="flex justify-center items-baseline my-8">
         
             </div>
             <div className="flex justify-center items-baseline my-8">
               <h3 className="text-center mt-3 font-bold lg:text-start text-[2rem]">
-              Yomo Provides 1% charges for all transactions
+              Yomo Provides 0% charges for all transactions
               </h3>
             </div>
             <div className="w-full flex justify-center mt- 30">
@@ -50,13 +50,13 @@ const Pricing = () => {
               YOMO DEPOSIT
             </h2>
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">At Yomo, we believe in making our financial services accessible to all.
-            That's why we charge a mere 1% fee per transaction</p>
+            That's why we charge a mere 0% fee per transaction</p>
             <div className="flex justify-center items-baseline my-8">
              
             </div>
             <div className="flex justify-center items-baseline my-8">
               <h3 className="text-center mt-3 font-bold lg:text-start text-[2rem]">
-              Yomo Provides 1% charges for all transactions
+              Yomo Provides 0% charges for all transactions
               </h3>
             </div>
             <div className="w-full flex justify-center mt- 30">
